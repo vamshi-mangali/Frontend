@@ -1,0 +1,85 @@
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    padding-top: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+input {
+    padding: 9px;
+    background-color: #ccc;
+    border: none;
+    border-radius: 3px;
+    font-size: 15px;
+
+}
+#container {
+    padding: 30px;
+    margin: 0 auto;
+    max-width: 60%;
+    background-color: #a89595;
+}
+
+.form-container {
+    padding: 0 20px;
+}
+
+#social-media i{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #aaa;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#input-details {
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.submit {
+    margin-top: 10px;
+    padding: 8px 37px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 30px;
+    background-color: #FF4B2B;
+    border: none;
+    color: #fff;
+    letter-spacing: 1.5px;
+    transition: 0.2s all ease;
+}
+
+.submit:active {
+    transform: scale(0.95);
+}
+
+.overlay-container .submit {
+    background-color: transparent;
+    border: 1px solid #ccc;
+}
+

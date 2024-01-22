@@ -1,0 +1,195 @@
+<<<<<<< HEAD
+
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 24px;
+}
+
+.clock {
+    display: flex;
+
+}
+.clock div {
+    margin: 5px; 
+    position: relative;
+}
+
+.clock span {
+    width: 100px;
+    height: 80px;
+    background-color: slateblue;
+    opacity: .8;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    text-shadow: 2px 2px 2px rgba(1,1,1, 0.8) ;
+}
+
+.clock .text {
+    height: 30px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    background-color: darkblue;
+    opacity: .8;
+}
+
+.clock #ampm {
+    position: absolute;
+    bottom: 0;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background-color: green;
+    opacity: .8;
+    
+}
+=======
+<<<<<<< HEAD
+
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 24px;
+}
+
+.clock {
+    display: flex;
+
+}
+.clock div {
+    margin: 5px; 
+    position: relative;
+}
+
+.clock span {
+    width: 100px;
+    height: 80px;
+    background-color: slateblue;
+    opacity: .8;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    text-shadow: 2px 2px 2px rgba(1,1,1, 0.8) ;
+}
+
+.clock .text {
+    height: 30px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    background-color: darkblue;
+    opacity: .8;
+}
+
+.clock #ampm {
+    position: absolute;
+    bottom: 0;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background-color: green;
+    opacity: .8;
+    
+}
+=======
+
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 24px;
+}
+
+.clock {
+    display: flex;
+
+}
+.clock div {
+    margin: 5px; 
+    position: relative;
+}
+
+.clock span {
+    width: 100px;
+    height: 80px;
+    background-color: slateblue;
+    opacity: .8;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    text-shadow: 2px 2px 2px rgba(1,1,1, 0.8) ;
+}
+
+.clock .text {
+    height: 30px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    background-color: darkblue;
+    opacity: .8;
+}
+
+.clock #ampm {
+    position: absolute;
+    bottom: 0;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background-color: green;
+    opacity: .8;
+    
+}
+>>>>>>> a7a9ec0 (New changes made)
+>>>>>>> cc4ae32 (changes updated)
