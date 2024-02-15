@@ -1,0 +1,262 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+.cursor {
+    height: 13px;
+    width: 13px;
+    position: fixed;
+    background-color: #b17bc6;
+    border-radius: 50%;
+    mix-blend-mode: difference; 
+    z-index: 8;
+    transition:  background-image ease 0.5s;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.main {
+    background-color: #0b0a0a;
+    cursor: none;
+}
+
+#page1 {
+    min-height: 100vh;
+    width: 100vw;
+    position: relative;
+    color: #fff;
+    z-index: 9;
+}
+
+#page1>nav {
+    height: 50px;
+    justify-content: space-between;
+    padding-inline: 30px;
+}
+#page1>nav>img {
+    height: 30px;
+}
+#nav-mid {
+    gap: 20px;  
+}
+#nav-mid h4 {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+#nav-mid h4:nth-child(1) {
+    text-decoration: underline;
+}
+
+#circle {
+    height: 15px;
+    width: 15px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+#page1 h1, h2 {
+    font-size: 7vw;
+    font-weight: 300;
+    font-family: pp mori;
+}
+#page1 h1 {
+    margin-left: 8vw;
+    margin-top: 30vh;
+}
+#page1 h2 {
+    text-align: end;
+    margin-right: 8vw;
+}
+#page1>video {
+    width: 60%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 8vw ;
+}
+
+#page2 {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: lightblue;
+    font-family: pp mori;
+    padding: 4% 10%;
+    border-bottom: 1.7px solid #222;
+    /* z-index: 9; */
+}
+
+.page2-container {
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-inline: 1%;
+}
+
+.left2 {
+    width: 33%;
+}
+.left2 h3 {
+    text-transform: uppercase;
+    font-size: 3vw;
+    font-weight: 400;
+}
+
+.right2 {
+    width: 21%;
+    /* background-color: greenyellow; */
+}
+.right2 p {
+    font-size: 18px;
+}
+.right2 button {
+    width: 100%;
+    margin-top: 20px;
+    border: none;
+    border-radius: 15px;
+    background-color: #c49ee6;
+    padding: 2px 0;
+    text-transform: uppercase;
+}
+
+#page3 {
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    background-color: lightblue;
+    padding: 4% 10%;
+    z-index: 9;
+}
+
+#page3 h1 {
+    font-size: 7vw;
+    font-weight: 400;
+}
+
+#page3 .part1,  .part2{
+    height: 70vh;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#page3 img  {
+    width: 37vw;
+    height: 20vw;
+    margin-top: 15vh;
+}
+#page3 video {
+    width: 32vw;
+}
+
+#page4 {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    z-index: 9;
+    padding: 200px 100px;
+    border-bottom: 1px solid #ccc;
+
+}
+.elem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.elem img {
+    position: absolute;
+    width: 25vw;
+    height: 30vh;
+    object-fit: cover;
+    opacity: 0;
+    transition: 0.5s all ease-in-out;
+    transform: translateY(10%) rotate(2deg);
+}
+.elem img:nth-child(1){
+    left: 2%;
+}
+.elem img:nth-child(3){
+    right: 5%;
+}
+.elem h1 {
+    font-size: 5vw;
+    transition: 0.5s all ease-out;
+    color: #fff;
+}
+
+.elem .text-div {
+    height: 13vh;
+    overflow: hidden;
+}
+
+.elem:hover h1{
+    transform: translateY(-100%);
+    color: #9956d4;
+}
+
+.elem:hover img {
+    opacity: 1;
+    transform: translateY(0) rotate(0);
+}
+
+#page5 {
+    position: relative;
+    height: 90vh;
+    width: 100%;
+    /* background-color: greenyellow; */
+    padding: 8% 5%;
+    color: #fff;
+    z-index: 9;
+}
+
+#page5>h2 {
+    font-size: 6vw;
+    margin-bottom: 4%;
+}
+
+#page5 .box {
+    height: 9vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: salmon; */
+    border-bottom: 1.7px solid #fff;
+}
+
+#page5 .box:nth-child(2){
+    border-top: 1.7px solid #fff;
+}
+
+.box h3{
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.box p{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+
